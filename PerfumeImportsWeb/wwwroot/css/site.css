@@ -15,7 +15,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #635F5F
+    background-color: mediumslateblue
 }
 div.container-fluid{
     background-color: black;
@@ -24,11 +24,10 @@ a{
     color: white;
 }
 img{
-    margin-right: 25px;
+   margin-right: 25px;
 }
 div.container{
-    text-align: center;
-    
+    text-align: center;   
 }
 * {
     margin: 0;
@@ -52,6 +51,7 @@ h1 {
 .gallery-wrapper {
     overflow-x: auto;
 }
+
 
 .arrow-left,
 .arrow-right {
@@ -105,7 +105,6 @@ h1 {
 }
 .gallery-wrapper {
     -ms-overflow-style: none; 
-    scrollbar-width: none;
 }
 
 .cyan {
@@ -124,6 +123,66 @@ h1 {
     background: darkblue;
 }
 
-.purple {
-    background: purple;
+
+.produt{
+    column-count:auto;
+}
+input[type=text], select, textarea {
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+    button:hover { 
+        opacity: 0.8;
+    }
+button.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+
 }
